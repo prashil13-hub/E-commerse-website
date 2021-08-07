@@ -1,0 +1,41 @@
+<%- include("../partials/header")  %>  
+<%- include("../partials/navbar")  %>
+
+
+    <div style="position: relative;">
+
+        <span  
+            class="text-capitalize" 
+            style="
+                position: absolute;
+                top: 130px; 
+                right: 400px;
+                font-size: 23px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+            >Thanks for your order <%= currentUser.username %> 
+            <br>
+            Your order will get Delivered soon!!
+        </span>
+
+        <img 
+            class="conformOrderImg" 
+            style="height: calc(100vh - 105px); width: calc(100vw - 20px); object-fit:cover;margin: 2px;" 
+            src="/assets/conformOrder.jpg" 
+            alt=""
+        >
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("../partials/footer")  %> 
